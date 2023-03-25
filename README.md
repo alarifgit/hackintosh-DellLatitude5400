@@ -2,11 +2,11 @@
 
 ---
 
-**NOTE: I originally used msbence's EFI files to get my Latitude 5400 working, which worked perfectly but I noticed a few things like the lack of HfsPlus.efi, a lot of redundant files that either aren't present or are disabled in the config.plist, as well as the config.plist patch for ECDV to EC but there not being any SSDT patches for this
+**NOTE: I originally used msbence's EFI files to get my Latitude 5400 working, which worked perfectly but I noticed a few things like the lack of HfsPlus.efi, a lot of redundant files that either aren't present or are disabled in the config.plist, as well as the config.plist patch for ECDV to EC but there not being any SSDT patches for this**
 
-In any case, I created my own SSDT patches using SSDTTime (from Windows) and MaciASL for the most part, with some borrowing again from msbence
+**In any case, I created my own SSDT patches using SSDTTime (from Windows) and MaciASL for the most part, with some borrowing again from msbence**
 
-SSDT-GPRW.aml and SSDT-UPRW.aml are not needed as per the official Dortania guide for this (when testing returned values from my own DSDT file show I don't need these patches)**
+**SSDT-GPRW.aml and SSDT-UPRW.aml are not needed as per the official Dortania guide for this (when testing returned values from my own DSDT file show I don't need these patches)**
 
 ---
 
