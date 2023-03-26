@@ -12,7 +12,7 @@
 
 **OpenCore version: 0.9.0**
 
-![About my Mac](/system.png)
+![About my Mac](system.png)
 
 ## Specification
 
