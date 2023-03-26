@@ -60,8 +60,8 @@ Regarding the brightness controls, AFAIK if your EC is working correctly brightn
 
  - HDMI coldplug: Nothing to add that msbence hasn't.
 
-I have some final words on the BCM94360NG vs Intel WiFi situation too, if you are using Intel WiFi you need to add AirportItlwm and IntelBluetoothFirmware kexts as these are omitted in my files
+I have some words on the BCM94360NG vs Intel WiFi situation too (if you are using Intel WiFi you need to add AirportItlwm and IntelBluetoothFirmware kexts yourself as these are omitted in my files)
 
-If you don't have the money or you can't swap your laptop WiFi (soldered WLAN chip for example) then I will say AirportItlwm does a fine job of getting Intel WiFi cards working, but in Ventura you must use the v2.2.0-alpha Ventura drivers...as such everytime you boot you can wait 20-30 seconds for the wifi to work. But when it does start working it works very well and at full speeds (NSS 2)
+If you don't have the money or you can't swap your laptop WiFi (soldered WLAN chip for example) then I will say AirportItlwm does a fine job of getting Intel WiFi cards working but in Ventura you must use the v2.2.0-alpha Ventura drivers...as such everytime you boot you can wait 20-30 seconds for the wifi to work. But when it does start working it works very well and at full speeds (NSS 2), perhaps a future update to AirportItlwm (non alpha) will fix this.
 
-BCM94360NG however works out of the box, like literally everything. However, for some reason this card runs at 434Mbps (NSS 1) in MacOS (runs at full speed in Windows) and for me this translates to speedtests of 380Mbps (Windows) vs 110-140Mbps (MacOS) - there is an open discussion of the issue at https://github.com/acidanthera/bugtracker/issues/1532
+BCM94360NG however works out of the box, like literally everything. However, for some reason this card runs at 434Mbps speed (NSS 1) in MacOS (runs at full speed in Windows) and for me this translates to speedtests of 380Mbps (Windows) vs 110-140Mbps (MacOS) - there is an open discussion on the issue at https://github.com/acidanthera/bugtracker/issues/1532
