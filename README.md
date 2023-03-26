@@ -12,7 +12,7 @@
 
 **OpenCore version: 0.9.0**
 
-![About my Mac] (https://github.com/alarifgit/hackintosh-DellLatitude5400/blob/master/System.png)
+![About my Mac](System.png)
 
 ## Specification
 
