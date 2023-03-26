@@ -10,7 +10,7 @@
 
 ---
 
-**OpenCore version: 0.9.0**
+**OpenCore version: 0.9.0 - Using same PlatformInfo as msbence, please use GenSMBIOS and generate your own for MacBookPro15,4**
 
 ![About my Mac](System.png)
 
@@ -52,7 +52,7 @@
 - TrackStick
 - Multi-Jack (both cold- and hotplug)
 
-## Some random text
+## Final thoughts
 
 I had some initial issues getting this to work, but what got it across the line was changing out SSDT-EC-USBX which I had created manually following https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/manual.html#pnp0c09-already-has-a-sta-method which basically had me create a dummy EC for MacOS to latch onto, however this was causing the VirtualSMC SuperIO plugin to not find a valid device. So I used SSDTTime again to generate the EC for laptops and the USBX individually, added to config.plist + patches and voila!
 
